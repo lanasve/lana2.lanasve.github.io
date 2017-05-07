@@ -1,0 +1,184 @@
+﻿body {
+    font-family: Arial, Arial, Helvetica, sans-serif;
+    width: 1024px;
+    margin: auto;
+    padding: 50px;
+    background-color: orange;
+}
+h1 {
+    border-style: dotted;
+    border-width: 3px;
+    border-color:red;
+    color: gray;
+    background-color: gainsboro;
+    width: 300px;
+    float:left;
+    padding: 20px;
+       }
+  
+    .image{
+        float:left; 
+        margin-right:10px;
+    }            
+    main{
+        background-color: gold;
+        display:inline-block;
+        width:60%;
+        border-style: dotted;
+        border-width: 3px;
+        border-color:red;
+    }
+    .header h2, ul{
+        background-color: rebeccapurple;
+        display:inline-block;
+        vertical-align:top;                  
+        list-style-type: none;
+        margin: 3px;
+        padding:3px;
+        overflow: hidden;        
+        position: fixed;
+        top: 0;
+        width: 100%;               
+                
+    }
+    .header h2, ul {
+    display:inline-block;
+}
+    .header h2, li{
+        display:inline-block;
+        float: left;        
+        color: #333;
+        text-align: center;
+    }            
+    .header li a {
+        display: inline-block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    .header li a:hover {
+        background-color: #111;
+    }             
+    
+    ol{
+        color: darkgreen ; 
+        list-style-type:upper-roman;
+
+    }
+    li {       
+        float: left;
+        }
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    li a:hover {
+        background-color: #111;
+    }
+    
+
+     .header h2 {      
+        color:white;
+        float: left;
+        
+      }
+    h3, h4{
+        color:green;
+        margin-top:10px;
+    }
+    
+    
+    aside{
+        border-style: solid;
+        border-width: 1px;
+        border-bottom-color:darkgreen;
+        background-color:lightgreen;
+        padding: 20px;
+        margin: 20px;
+        float:right; width:30%;
+    }
+    section.image{
+        float:left; margin-right:10px;
+    }
+    aside.list{
+        float:right; 
+        width:30%;
+    }
+
+    .list h2, h3, h4 {
+        margin-top: 10px;
+        padding: 10px;
+        color: red; 
+    }
+    ol.list{
+        list-style-type: disc;
+        margin: 25px;
+        padding: 25px;                          
+        overflow: hidden;    
+                
+        width: 30%;
+        display: list-item;
+    }
+    li.list{
+        display: table-column;
+        list-style-type: disc;                  
+        float: left;        
+        color: red;
+        text-align: left;
+        padding: 14px 16px;
+
+    }
+    .first-article{
+        background-color: rosybrown;
+        border-style: dotted;
+        border-width: 2px;
+        border-color: red;
+        width: 25%;
+        float: left;
+        padding: 20px;        
+        height: 80em;       
+    }
+    .second-article{
+        background-color: rosybrown;
+        border-style: dotted;
+        border-width: 2px;
+        border-color: red;
+        width: 28%;
+        float: right;
+        padding: 20px;        
+        height: 80em;        
+    }
+    
+    .footer{
+        border-style: dotted;
+        border-width: 2px;
+        border-color: red;
+        color: white;        
+        width: 95%;        
+        background-color: rebeccapurple;
+        display:inline-block;     
+        list-style-type: none;
+        margin: 3px;
+        padding:3px;        
+        position: fixed;
+        bottom: 0;
+        
+        
+    }
+    .footer a:link{
+        color:whitesmoke
+    }
+    .footer a:visited{
+        color:wheat
+    }
+    .footer a:hover{
+        color:silver
+    }
+
+
+
